@@ -12,4 +12,4 @@ echo "Arguments to be passed to game executable are: %*"
 pause
 
 :: Change next line to change path to game executable
-start "Main game executable" "game.exe %*"
+start "Main game executable" "game.exe" %*
