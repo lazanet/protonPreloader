@@ -11,8 +11,6 @@ int main(int argc, char *argv[])
     if (pos != std::string::npos)
         path = '"' + s.substr(0,pos+1) + "config.bat" + '"';
 
-    //std::cout<<path<<std::endl;
-
     for (int i=1; i<argc; i++)
         path+=" "+std::string(argv[i]);
 
